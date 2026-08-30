@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# INPISER
 
-## Getting Started
+> **Do Instagram à API até o usuário. Simples, rápido e automático.**
 
-First, run the development server:
+O **INPISER** é uma plataforma de automação e integração para Instagram, criada com o objetivo de tornar a comunicação entre **Instagram, APIs e usuários** mais simples, rápida e automatizada.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+O nome **INPISER** é uma abstração de:
+
+**IN** — Instagram  
+**PI** — API  
+**SER** — User
+
+A ideia central é conectar esses três elementos em uma experiência única.
+
+## Projeto
+
+O INPISER está sendo desenvolvido como uma aplicação web com foco em automação, integração com APIs e gerenciamento das interações provenientes do Instagram.
+
+Atualmente, o projeto encontra-se em desenvolvimento.
+
+## Tecnologias
+
+- Next.js
+- React
+- TypeScript
+- CSS
+- Git
+- GitHub
+
+Novas tecnologias serão incorporadas conforme a arquitetura do projeto evoluir.
+
+## Estrutura atual
+
+```text
+INPISER/
+├── src/
+│   └── app/
+│       ├── componentes/
+│       │   └── Sidebar.tsx
+│       ├── dashboard/
+│       │   └── page.tsx
+│       ├── favicon.ico
+│       ├── globals.css
+│       └── page.tsx
+├── ...
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Conceito
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O INPISER busca reduzir a distância entre uma ação realizada no Instagram e o resultado entregue ao usuário.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+Instagram
+    ↓
+API
+    ↓
+INPISER
+    ↓
+Usuário
+```
 
-## Learn More
+A proposta é transformar processos que normalmente exigiriam múltiplas etapas em fluxos simples e automatizados.
 
-To learn more about Next.js, take a look at the following resources:
+## Objetivos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Integrar o Instagram a serviços e APIs.
+- Automatizar processos repetitivos.
+- Centralizar informações e operações em uma interface.
+- Proporcionar uma experiência simples para o usuário.
+- Criar uma arquitetura preparada para múltiplos usuários e integrações.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Status
 
-## Deploy on Vercel
+**Em desenvolvimento**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+O projeto ainda está em fase de construção e sua arquitetura, funcionalidades e integrações podem mudar conforme o desenvolvimento avançar.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Autor
+
+**Nathanael**
+
+GitHub: [@nvini16](https://github.com/nvini16)
+
+---
+
+© 2026 INPISER
